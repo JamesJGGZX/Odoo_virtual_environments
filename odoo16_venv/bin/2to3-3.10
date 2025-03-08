@@ -1,0 +1,5 @@
+#!/home/jamesdev/miniconda3/envs/odoo16_venv/bin/python3.10
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))

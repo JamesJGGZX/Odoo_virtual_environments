@@ -1,0 +1,81 @@
+==> 2025-03-07 22:25:12 <==
+# cmd: /home/jamesdev/miniconda3/bin/conda create --name odoo12_venv python=3.6 -y
+# conda version: 25.1.1
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::_openmp_mutex-5.1-1_gnu
++defaults/linux-64::ca-certificates-2025.2.25-h06a4308_0
++defaults/linux-64::certifi-2021.5.30-py36h06a4308_0
++defaults/linux-64::ld_impl_linux-64-2.40-h12ee557_0
++defaults/linux-64::libffi-3.3-he6710b0_2
++defaults/linux-64::libgcc-ng-11.2.0-h1234567_1
++defaults/linux-64::libgomp-11.2.0-h1234567_1
++defaults/linux-64::libstdcxx-ng-11.2.0-h1234567_1
++defaults/linux-64::ncurses-6.4-h6a678d5_0
++defaults/linux-64::openssl-1.1.1w-h7f8727e_0
++defaults/linux-64::pip-21.2.2-py36h06a4308_0
++defaults/linux-64::python-3.6.13-h12debd9_1
++defaults/linux-64::readline-8.2-h5eee18b_0
++defaults/linux-64::setuptools-58.0.4-py36h06a4308_0
++defaults/linux-64::sqlite-3.45.3-h5eee18b_0
++defaults/linux-64::tk-8.6.14-h39e8969_0
++defaults/linux-64::xz-5.6.4-h5eee18b_1
++defaults/linux-64::zlib-1.2.13-h5eee18b_1
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
+# update specs: ['python=3.6']
+==> 2025-03-07 22:46:40 <==
+# cmd: /home/jamesdev/miniconda3/bin/conda install -c conda-forge libstdcxx-ng
+# conda version: 25.1.1
+-defaults/linux-64::libstdcxx-ng-11.2.0-h1234567_1
+-defaults/linux-64::pip-21.2.2-py36h06a4308_0
+-defaults/linux-64::setuptools-58.0.4-py36h06a4308_0
+-defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
++conda-forge/linux-64::libstdcxx-ng-13.2.0-hc0a3c3a_7
++pypi/pypi::babel-2.3.4-pypi_0
++pypi/pypi::beautifulsoup4-4.12.3-pypi_0
++pypi/pypi::chardet-3.0.4-pypi_0
++pypi/pypi::decorator-4.0.10-pypi_0
++pypi/pypi::docutils-0.12-pypi_0
++pypi/pypi::ebaysdk-2.1.5-pypi_0
++pypi/pypi::gevent-1.1.2-pypi_0
++pypi/pypi::greenlet-0.4.10-pypi_0
++pypi/pypi::html2text-2016.9.19-pypi_0
++pypi/pypi::idna-2.7-pypi_0
++pypi/pypi::jinja2-2.10.1-pypi_0
++pypi/pypi::libsass-0.12.3-pypi_0
++pypi/pypi::lxml-3.7.1-pypi_0
++pypi/pypi::mako-1.0.4-pypi_0
++pypi/pypi::markupsafe-0.23-pypi_0
++pypi/pypi::mock-2.0.0-pypi_0
++pypi/pypi::num2words-0.5.6-pypi_0
++pypi/pypi::ofxparse-0.16-pypi_0
++pypi/pypi::olefile-0.47-pypi_0
++pypi/pypi::passlib-1.6.5-pypi_0
++pypi/pypi::pbr-6.1.1-pypi_0
++pypi/pypi::pillow-4.0.0-pypi_0
++pypi/pypi::pip-21.3.1-pypi_0
++pypi/pypi::psutil-4.3.1-pypi_0
++pypi/pypi::psycopg2-2.7.3.1-pypi_0
++pypi/pypi::pydot-1.2.3-pypi_0
++pypi/pypi::pyldap-2.4.28-pypi_0
++pypi/pypi::pyparsing-2.1.10-pypi_0
++pypi/pypi::pypdf2-1.26.0-pypi_0
++pypi/pypi::pyserial-3.1.1-pypi_0
++pypi/pypi::python-dateutil-2.5.3-pypi_0
++pypi/pypi::python-stdnum-1.8-pypi_0
++pypi/pypi::pytz-2016.7-pypi_0
++pypi/pypi::pyusb-1.0.0-pypi_0
++pypi/pypi::qrcode-5.3-pypi_0
++pypi/pypi::reportlab-3.3.0-pypi_0
++pypi/pypi::requests-2.20.0-pypi_0
++pypi/pypi::setuptools-44.1.1-pypi_0
++pypi/pypi::six-1.17.0-pypi_0
++pypi/pypi::soupsieve-2.3.2.post1-pypi_0
++pypi/pypi::suds-jurko-0.6-pypi_0
++pypi/pypi::urllib3-1.24.3-pypi_0
++pypi/pypi::vobject-0.9.3-pypi_0
++pypi/pypi::werkzeug-0.11.15-pypi_0
++pypi/pypi::wheel-0.34.2-pypi_0
++pypi/pypi::xlrd-1.0.0-pypi_0
++pypi/pypi::xlsxwriter-0.9.3-pypi_0
++pypi/pypi::xlwt-1.3.0-pypi_0
+# update specs: ['libstdcxx-ng']

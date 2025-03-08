@@ -1,0 +1,11 @@
+prefix=/home/jamesdev/miniconda3/envs/odoo17_venv
+exec_prefix=/home/jamesdev/miniconda3/envs/odoo17_venv
+libdir=/home/jamesdev/miniconda3/envs/odoo17_venv/lib
+includedir=/home/jamesdev/miniconda3/envs/odoo17_venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

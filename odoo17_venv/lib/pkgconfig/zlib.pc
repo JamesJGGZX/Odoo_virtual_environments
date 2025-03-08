@@ -1,0 +1,13 @@
+prefix=/home/jamesdev/miniconda3/envs/odoo17_venv
+exec_prefix=/home/jamesdev/miniconda3/envs/odoo17_venv
+libdir=/home/jamesdev/miniconda3/envs/odoo17_venv/lib
+sharedlibdir=/home/jamesdev/miniconda3/envs/odoo17_venv/lib
+includedir=/home/jamesdev/miniconda3/envs/odoo17_venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
